@@ -6,6 +6,25 @@
   useful summary for people upgrading their application, not a replication
   of the commit log.
 
+## 5.4.0
+- Adds admin route and placeholder view for admin
+
+## 5.3.0
+- Fixes an issue where blackout periods were not working on single view mode.
+
+## 5.2.0
+- Fixes an issue where next jammah highlighting would not change if not refreshed.
+
+## 5.1.0
+- Adds the ability to add time formats.
+
+## 5.0.0
+- Adds Single View mode for mosques which do not want changing views.
+
+## 4.0.1
+- Adds background to hadith of the day text.
+- Removes alt text for logo so that it does not show the text "logo" when there is no internet.
+
 ## 4.0.0
 - Introduces a new view containing the Hadith of the day
 - List of hadith to show is retrieved from a Google sheets document -- the default sheet is set in `config.json`

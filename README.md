@@ -2,6 +2,8 @@
   <img src="https://github.com/DilwoarH/Mosque-Screen/raw/master/mosque-screens-logo.png" alt="Mosque Screen Logo" />
 </p>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/374fbcfb-e2e9-451c-a970-310194e51027/deploy-status)](https://app.netlify.com/sites/mosque-screen/deploys)
+
 # Mosque Screen
 
 Build in association with [East London Mosque](https://www.eastlondonmosque.org.uk/).
@@ -13,14 +15,20 @@ Join our discord channel here: https://discord.gg/CG7frj2
 - Demo (https://screen.mosque.tech/)
 - Beacon Tree Masjid (UK 🇬🇧) (https://beacontree-masjid.mosque.tech/)
 - East London Mosque (UK 🇬🇧) (https://elm.mosque.tech/)
-- Masjid Al-Rahman (USA 🇺🇸) (https://iswccc.herokuapp.com/)
+- Masjid Al-Rahman (USA 🇺🇸) (https://display.masjidalrahman.com/)
+- Redbridge Islamic Centre (UK 🇬🇧) (https://redbridge.mosque.tech/)
+- Jami Masjid & Islamic Centre (UK 🇬🇧) (https://jmic.mosque.tech/)
+
+### Projects in progress
+- Westferry Mosque (UK 🇬🇧) (https://westferry.mosque.tech/)
 
 (If you want a **your-mosque.mosque.tech** domain, please contact the team via the support channel)
 
 ## Easy one click deployment
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DilwoarH/Mosque-Screen)
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DilwoarH/Mosque-Screen)
 
+### Other unsupported deployments
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DilwoarH/Mosque-Screen)
 
 ## Demo Data
 https://docs.google.com/spreadsheets/d/e/2PACX-1vRHjHMDmua4IqpnSiAsLVUJEPtZDcJhziBHivD1fmWJu-StuxpPv-VRzBqX8bcC5499pZ9vBUeD_K5G/pubhtml
@@ -106,6 +114,10 @@ chrome-debug --app=https://screen.mosque.tech/ --start-fullscreen
 ![BTM-Next-Salaah](https://github.com/DilwoarH/Mosque-Screen/raw/master/screenshots/BTM-Next-Salaah.png "BTM-Next-Salaah")
 ![BTM-7days](https://github.com/DilwoarH/Mosque-Screen/raw/master/screenshots/BTM-7days.png "BTM-7days")
 ![BTM-Black-Screen](https://github.com/DilwoarH/Mosque-Screen/raw/master/screenshots/BTM-Black-Screen.png "BTM-Black-Screen")
+![HadithOfTheDay](https://github.com/DilwoarH/Mosque-Screen/raw/master/screenshots/HadithOfTheDayView.png "HadithOfTheDay")
+
+### Single view mode
+![SingleView](https://github.com/DilwoarH/Mosque-Screen/raw/master/screenshots/SingleViewScreenshot.png "Single-View")
 
 ## Folder Structure
 

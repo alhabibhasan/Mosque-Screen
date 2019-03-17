@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NextJammahTime from './next-jamah-time';
+import Admin from './Admin';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<NextJammahTime />, div);
+  ReactDOM.render(<Admin />, div);
   ReactDOM.unmountComponentAtNode(div);
 });

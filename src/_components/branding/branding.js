@@ -10,6 +10,9 @@ class Branding extends Component {
       secondary_colour: _appConfig.get('secondary_colour'),
       primary_text_colour: _appConfig.get('primary_text_colour'),
       secondary_text_colour: _appConfig.get('secondary_text_colour'),
+      prayer_time_highlight_colour: _appConfig.get(
+        'prayer_time_highlight_colour'
+      ),
       clock_background_colour: _appConfig.get('clock_background_colour')
     };
   }
@@ -42,18 +45,28 @@ class Branding extends Component {
 
       /* PRIMARY TEXT COLOURS */
       .DateWrapper,
-      .NextJamahTime,
+      .NextJammahTime,
       .PrayerTimes,
       .App-header,
       .blackout-clock .ClockWrapper .Clock,
       .PrayerTimesWeekAhead-row {
-        color: ${this.state.primary_text_colour}
+        color: ${this.state.primary_text_colour};
       }
 
       /* SECONDARY TEXT COLOURS */
       .PrayerTimesWeekAhead,
       .PrayerTimesWeekAhead td:first-child {
-        color: ${this.state.secondary_text_colour}
+        color: ${this.state.secondary_text_colour};
+      }
+
+      /* HADITH OF THE DAY */
+      .HadithOfTheDayWrapper {
+        color: ${this.state.primary_colour};
+      }
+
+      /* SINGLE VIEW PRAYER TIMES */
+      .PrayerTimesSingleView .nextJammahHighlight {
+        color: ${this.state.prayer_time_highlight_colour};
       }
     `;
   }

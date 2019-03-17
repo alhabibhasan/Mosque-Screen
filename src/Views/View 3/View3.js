@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import './View1.css';
-import Logo from '../_components/logo/logo';
-import Clock from '../_components/clock/clock';
-import PrayerTimes from '../_components/prayer-times/prayer-times';
-import Date from '../_components/date/date';
-import BuildNumber from '../_components/build-number/build-number';
-import SunriseAndZawwal from '../_components/sunrise-and-zawwal/sunrise-and-zawwal';
-import AdditionalMessage from '../_components/additional-message/additional-message';
-import AppConfig from '../_components/app-config/app-config';
-import Branding from '../_components/branding/branding';
+import './View3.css';
+import Logo from '../../_components/logo/logo';
+import Clock from '../../_components/clock/clock';
+import Date from '../../_components/date/date';
+import BuildNumber from '../../_components/build-number/build-number';
+import NextJammahTime from '../../_components/next-jamah-time/next-jamah-time';
+import AdditionalMessage from '../../_components/additional-message/additional-message';
+import AppConfig from '../../_components/app-config/app-config';
+import Branding from '../../_components/branding/branding';
 
-class View1 extends Component {
+class View3 extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -26,7 +25,7 @@ class View1 extends Component {
 
   render() {
     return (
-      <div className="View1">
+      <div className="View3">
         <div className="row">
           <Logo />
         </div>
@@ -40,16 +39,13 @@ class View1 extends Component {
             </div>
             <div className="row">
               <AdditionalMessage
-                message={this.state._appConfig.get('Text_Donate_Message')}
+                message={this.state._appConfig.get('Mobile_Use_Notification')}
               />
             </div>
           </div>
           <div className="col-12 col-md-6">
             <div className="row">
-              <PrayerTimes />
-            </div>
-            <div className="row">
-              <SunriseAndZawwal />
+              <NextJammahTime />
             </div>
           </div>
         </div>
@@ -60,4 +56,4 @@ class View1 extends Component {
   }
 }
 
-export default View1;
+export default View3;
